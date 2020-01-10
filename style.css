@@ -1,0 +1,151 @@
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+p{
+    
+    font-weight: 200;
+    font-size: 15px;
+}
+h1{
+    font-weight: 200;
+    line-height: 0.7;
+}
+h2{
+    color: hsl(234, 12%, 34%);
+}
+.bold{
+    font-weight: 600;
+     color: hsl(234, 12%, 34%);
+}
+
+.top-title{
+    text-align: center;
+    width: 500px;
+    position: relative;
+    left: 450px;
+    margin-bottom: 50px;
+}
+
+.top-box{
+    
+    width: 300px;
+    height: 250px;
+    border-top-style: solid;
+    border-top-color: hsl(0, 78%, 62%);
+    border-top-width: 5px;
+    padding: 15px;
+    position: relative;
+    left: 550px;
+    box-shadow: 0 10px 5px hsl(229, 6%, 66%,0.3);
+    border-radius: 5px;
+}
+
+
+.left-box{
+    
+    width: 300px;
+    height: 250px;
+    border-top-style: solid;
+    border-top-color: hsl(180, 62%, 55%);
+    border-top-width: 5px;
+    padding: 15px;
+    position: relative;
+    left: 190px;
+    bottom: 120px;
+    box-shadow: 0 10px 5px hsl(229, 6%, 66%,0.3);
+    border-radius: 5px;
+}
+
+.right-box{
+    
+    width: 300px;
+    height: 250px;
+    border-top-style: solid;
+    border-top-color: hsl(212, 86%, 64%);
+    border-top-width: 5px;
+    padding: 15px;
+    position: relative;
+    left: 910px;
+    bottom: 400px;
+    box-shadow: 0 10px 5px hsl(229, 6%, 66%,0.3);
+    border-radius: 5px;
+}
+
+.bottom-box{
+    
+    width: 300px;
+    height: 250px;
+    border-top-style: solid;
+    border-top-color: hsl(34, 97%, 64%);
+    border-top-width: 5px;
+    padding: 15px;
+    position: relative;
+    left: 550px;
+    bottom: 540px;
+    box-shadow: 0 10px 5px hsl(229, 6%, 66%,0.3);
+    border-radius: 5px;
+}
+
+img{
+    position: absolute;
+    left: 230px;
+    margin-top: 30px;
+    
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width:600px){
+    
+    h1{
+        font-size: 1.5em;
+    }
+    
+    h2{
+        font-size: 1em;
+    }
+    
+    .top-title {
+        width:65%;
+        position: static;
+        margin: 50px 50px;
+        text-align:center;
+        
+    }
+    .top-box{
+        position: relative;
+        width:65%;
+        left: 50px;
+        top: 300px;
+        
+    }
+    .right-box{
+        position: relative;
+        left: 50px;
+        width:65%;
+        bottom: -360px;
+    }
+    
+    .left-box{
+        position: relative;
+        width:65%;
+        bottom: 300px;
+        left: 50px;
+        
+    }
+    
+    .bottom-box{
+        position: relative;
+        left: 50px;
+        width:65%;
+        bottom: 240px;
+    }
+    
+    footer{
+        margin-top: 100px;
+     
+    }
+    
+}
